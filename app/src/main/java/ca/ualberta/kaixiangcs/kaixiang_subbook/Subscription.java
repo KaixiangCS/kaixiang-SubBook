@@ -6,10 +6,10 @@ package ca.ualberta.kaixiangcs.kaixiang_subbook;
  * create a new customed object
  * @author Kaixiang Zhang
  * @version 1.0
- * @see Subscripaible
+ * @see Subscripible
  */
 
-public class Subscription implements Subscripaible{
+public class Subscription implements Subscripible{
 
     private String name;
     private String date;
