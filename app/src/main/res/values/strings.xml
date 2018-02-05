@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">kaixiang-SubBook</string>
+    <string name="hint1">name (textual, up to 20 characters)</string>
+    <string name="hint2">date started (presented yyyy-mm-dd format)</string>
+    <string name="hint3">monthly charge (non-negative currency value, in Canadian dollars)</string>
+    <string name="hint4">comment (textual, up to 30 characters)</string>
+    <string name="button1">Add</string>
+    <string name="button2">Save</string>
+    <string name="mess1">The total monthly charge(CAD) is :</string>
+    <string name="mess2">if u wanna change the sub above plz enter the No. of the sub</string>
+    <string name="button3">Delete</string>
+    <string name="buttom4">Submit</string>
+    <string name="botton5">ClearALLLLL</string>
+</resources>
