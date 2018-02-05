@@ -41,7 +41,7 @@ public class inputActivity extends AppCompatActivity {
                 String charge1 = charge.getText().toString();
                 float charge2 = Float.parseFloat(charge1);
                 String comment1 = comment.getText().toString();
-                if (name1.length()>0 && name1.length()<20 && date1.matches("^((19|20)\\d\\d)-(0?[1-9]|1[012])-(0?[1-9]|[12][0-9]|3[01])$")&& charge2!=0 &&comment1.length()>0 && comment1.length()<30){
+                if (name1.length()>0 && name1.length()<20 && date1.matches("^((19|20)\\d\\d)-(0?[1-9]|1[012])-(0?[1-9]|[12][0-9]|3[01])$")&& charge2!=0 &&comment1.length()<30){
                     Intent intent = new Intent();
                     Bundle bundle = new Bundle();
                     bundle.putString("string1" , name1);
